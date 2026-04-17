@@ -1,0 +1,28 @@
+{
+  "name": "signpost-render",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Self-host build of Signpost — a small Satori-backed OG-image renderer that loads templates from a local directory. v0.3 adds an optional Takumi (Rust) render engine, selectable via the RENDER_ENGINE env var.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "signpost": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "cli": "node src/cli.js",
+    "test": "node --test 'test/**/*.test.js'"
+  },
+  "dependencies": {
+    "@hono/node-server": "1.13.7",
+    "@resvg/resvg-js": "2.6.2",
+    "hono": "4.6.13",
+    "satori": "0.12.1",
+    "satori-html": "0.3.2",
+    "takumi-js": "1.0.9"
+  }
+}
