@@ -4,6 +4,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/hkusanic/signpost-render/actions/workflows/ci.yml"><img src="https://github.com/hkusanic/signpost-render/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/hkusanic/signpost-render/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License"></a>
   <a href="https://hub.docker.com/r/hkusanic/signpost-render"><img src="https://img.shields.io/docker/pulls/hkusanic/signpost-render" alt="Docker pulls"></a>
   <a href="https://signpost.daystorm.institute"><img src="https://img.shields.io/badge/hosted-signpost.daystorm.institute-brightgreen" alt="Hosted version"></a>
