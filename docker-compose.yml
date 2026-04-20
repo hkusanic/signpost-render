@@ -1,0 +1,9 @@
+services:
+  signpost:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./templates:/app/templates:ro
+    environment:
+      - RENDER_ENGINE=satori
