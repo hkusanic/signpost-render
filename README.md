@@ -16,6 +16,8 @@ Signpost renders OG images from templates you keep in your Git repo. No dashboar
 
 **Try it now** — this URL returns a real PNG:
 
+![Example OG image rendered by Signpost](https://og.daystorm.institute/render/signpost-banner?title=OG%20images%20that%20live%20in%20your%20repo&subtitle=Commit%20a%20template%2C%20get%20a%20social%20card.%20%244%2Fmo%20or%20self-host.)
+
 ```
 https://og.daystorm.institute/render/signpost-banner?title=Hello%20World&subtitle=Your%20first%20social%20card
 ```
